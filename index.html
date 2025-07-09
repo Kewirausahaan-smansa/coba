@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Kewirausahaan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pendaftaran Ekstrakurikuler Kewirausahaan</h1>
+        <form id="registrationForm" action="submit.php" method="POST" enctype="multipart/form-data">
+            <label for="fullname">Nama Lengkap:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Nomor Telepon:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="reason">Alasan Masuk Ekstrakurikuler Kewirausahaan:</label>
+            <textarea id="reason" name="reason" required></textarea>
+
+            <label for="image">Upload Gambar (opsional):</label>
+            <input type="file" id="image" name="image">
+
+            <button type="submit">Daftar</button>
+        </form>
+
+        <div class="info">
+            <h2>Tentang Kewirausahaan</h2>
+            <p>Kewirausahaan adalah proses menciptakan dan mengelola usaha untuk mencapai keuntungan. Bergabunglah dengan kami untuk belajar lebih banyak!</p>
+            <h3>Kontak</h3>
+            <p>Ketua: John Doe</p>
+            <p>Wakil Ketua: Jane Smith</p>
+            <p>Instagram: <a href="https://instagram.com/youraccount" target="_blank">@youraccount</a></p>
+            <p><a href="https://chat.whatsapp.com/yourgroup" target="_blank">Gabung Grup WhatsApp</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
 
